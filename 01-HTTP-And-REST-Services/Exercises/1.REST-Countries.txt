@@ -1,0 +1,5 @@
+Queries:
+	https://restcountries.eu/rest/v2/name/Bulgaria
+	https://restcountries.eu/rest/v2/name/Italy?fields=name;capital;region;population
+	https://restcountries.eu/rest/v2/lang/de?fields=name;region
+
