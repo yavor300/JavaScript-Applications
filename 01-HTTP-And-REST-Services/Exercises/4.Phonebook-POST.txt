@@ -1,0 +1,6 @@
+Query:
+	POST: http://localhost:3030/jsonstore/phonebook
+	BODY: {
+		"person": "Yavor",
+		"phone": "+359 9999999"
+	}
