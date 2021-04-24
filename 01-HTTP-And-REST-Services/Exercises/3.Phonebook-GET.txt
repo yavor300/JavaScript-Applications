@@ -1,0 +1,2 @@
+Query:
+	GET: http://localhost:3030/jsonstore/phonebook
