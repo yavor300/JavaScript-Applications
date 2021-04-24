@@ -1,0 +1,11 @@
+Queries:
+	GET: http://dummy.restapiexample.com/api/v1/employees
+	GET: http://dummy.restapiexample.com/api/v1/employee/1
+
+	POST: http://dummy.restapiexample.com/api/v1/create
+	BODY: {"name":"Yavor Chamov","salary":"123","age":"23"}
+
+	PUT: http://dummy.restapiexample.com/api/v1/update/5754
+	BODY: {"name":"Yavor Chamov","salary":"2000","age":"18"}
+
+	DELETE: http://dummy.restapiexample.com/api/v1/delete/5754
