@@ -63,33 +63,6 @@ async function renderDetails(id, recipeArtice) {
     appendElements(article, divDescription);
 
     recipeArtice.replaceWith(article);
-
-
-    // <article>
-    //     <h2>Title</h2>
-    //     <div class="band">
-    //         className <div class="thumb">
-    //         className <img src="assets/lasagna.jpg">
-    //     </div>
-    //         <div class="ingredients">
-    //             className <h3>Ingredients:</h3>
-    //             <ul>
-    //                 <li>Ingredient 1</li>
-    //                 <li>Ingredient 2</li>
-    //                 <li>Ingredient 3</li>
-    //                 <li>Ingredient 4</li>
-    //             </ul>
-    //         </div>
-    //     </div>
-    //     <div class="description">
-    //         className <h3>Preparation:</h3>
-    //         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, quaerat.</p>
-    //         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur officia ipsam nulla vitae nobis
-    //             reprehenderit pariatur aut dolor exercitationem impedit.</p>
-    //         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolorem odit officiis numquam
-    //             corrupti? Quam.</p>
-    //     </div>
-    // </article>
 }
 
 function renderRecipes(recipes) {
